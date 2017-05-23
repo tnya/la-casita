@@ -8,8 +8,8 @@ body {
 .sun{
 	width: 100px;
 	height: 100px;
-	top: 20px;
-	left: 20px;
+	top: 30px;
+	left: 60px;
 	background: #FFE51C;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -25,4 +25,132 @@ body {
 	position: absolute;
 	bottom: 0;
 	
+}
+
+.laCasita{
+	background: rebeccapurple;
+	width: 400px;
+    height: 250px;   
+    left: 550px;
+    top: 300px;
+    position: relative;
+}
+
+.door {
+    background: lightblue;
+    width: 100px;
+    height: 160px;
+    left: 90px;
+    top: 90px;
+    position: relative;
+}
+
+.heart {
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    left: 110px;
+}
+
+.heart:before,
+.heart:after {
+    position: absolute;
+    content: "";
+    left: 30px;
+    top: 0;
+    width: 30px;
+    height: 50px;
+    background: red;
+    -moz-border-radius: 40px 40px 0 0;
+    border-radius: 40px 40px 0 0;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+       -moz-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+         -o-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+}
+
+.heart:after {
+    left: 0;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+         -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+       -moz-transform-origin: 100% 100%;
+        -ms-transform-origin: 100% 100%;
+         -o-transform-origin: 100% 100%;
+            transform-origin :100% 100%;
+}
+
+.window {
+    background: #FF9800;
+    width: 80px;
+    height: 80px;
+    left: 150px;
+    bottom: 70px;
+    position: relative;
+}
+
+.roof {
+    border-bottom: 100px solid red;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    height: 0;
+    width: 340px;
+    bottom: 250px;
+    right: 20px;
+    position: relative;
+}
+			
+.chimney{
+	width: 25px;
+	height: 60px;
+	background: #2E1BCD;	
+    position: absolute;
+    top:20px;
+    left: 240px;		
+
+}
+
+.smoke1 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #666666;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    left: 260px;
+    bottom: 2px;
+}
+
+.smoke2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #858e92;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    left: 300px;
+    bottom: 30px;
+}
+
+.smoke3 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: rgb(176, 176, 176);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    left: 320px;
+    bottom: 60px;
 }
